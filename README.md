@@ -28,14 +28,13 @@ Pada suhu tinggi (**T > Tc**), energi termal mendominasi sehingga arah spin menj
 ## Struktur Repository
 
 ```text
-simulasi-model-ising-2d/
-│
-├── docs/
-│   ├── index.html
-│   ├── Kasus_1_Suhu_Rendah.html
-│   ├── Kasus_2_Suhu Sedang.html
-│   └── Kasus_3_Suhu_Tinggi.html
-│
+/ (root repository)
+├── README.md
+└── docs/
+    ├── index.html
+    ├── Kasus_1_Suhu_Rendah.html
+    ├── Kasus_2_Suhu_Sedang.html
+    └── Kasus_3_Suhu_Tinggi.html
 ├── notebooks/
 │   ├── Kasus_1_Suhu_Rendah.ipynb
 │   ├── Kasus_2_Suhu_Sedang.ipynb
