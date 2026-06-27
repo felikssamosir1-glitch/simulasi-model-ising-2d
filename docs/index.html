@@ -3,35 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulasi Model Ising 2D</title>
+    <title>Simulasi Model Ising 2D | Fisika Komputasi</title>
     <style>
-        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f4f4; text-align: center; margin: 40px; }
-        .container { background: white; width: 800px; margin: auto; padding: 40px; border-radius: 10px; box-shadow: 0px 0px 20px #ccc; text-align: left; }
-        h1, h2, h3 { color: #0b5ed7; text-align: center; }
-        .btn-container { text-align: center; margin-top: 20px; }
-        a { display: block; padding: 15px; margin: 10px; text-decoration: none; background: #0b5ed7; color: white; border-radius: 8px; font-weight: bold; }
-        a:hover { background: #084298; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-        th, td { border: 1px solid #ccc; padding: 12px; text-align: center; }
-        th { background: #0b5ed7; color: white; }
-        hr { margin: 30px 0; border: 0; border-top: 1px solid #eee; }
+        :root {
+            --primary: #6366f1;
+            --dark: #1e293b;
+            --light: #f8fafc;
+        }
+
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background: linear-gradient(135deg, #0f172a, #334155); 
+            color: #e2e8f0;
+            margin: 0; padding: 40px 20px;
+        }
+
+        .container { 
+            background: rgba(30, 41, 59, 0.7); 
+            backdrop-filter: blur(10px);
+            max-width: 800px; margin: auto; padding: 40px; 
+            border-radius: 20px; border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+        }
+
+        h1 { color: #fff; font-size: 2.5em; margin-bottom: 10px; }
+        h2 { color: var(--primary); border-left: 4px solid var(--primary); padding-left: 15px; margin-top: 30px; }
+        
+        .btn-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin-top: 25px; }
+        a { 
+            display: block; padding: 20px 10px; text-decoration: none; 
+            background: rgba(99, 102, 241, 0.2); border: 1px solid var(--primary);
+            color: white; border-radius: 12px; font-weight: 600; text-align: center;
+            transition: all 0.3s ease;
+        }
+        a:hover { background: var(--primary); transform: translateY(-5px); box-shadow: 0 10px 15px rgba(99, 102, 241, 0.3); }
+
+        table { width: 100%; border-collapse: separate; border-spacing: 0; margin-top: 20px; }
+        th { background: rgba(99, 102, 241, 0.1); color: var(--primary); padding: 12px; border-bottom: 2px solid var(--primary); }
+        td { padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.1); text-align: center; }
+
+        ul { line-height: 1.8; }
+        li b { color: var(--primary); }
     </style>
 </head>
 <body>
 
 <div class="container">
     <h1>Simulasi Model Ising 2D</h1>
-    <h3 style="text-align: center;">Tugas Fisika Komputasi - Kelompok Barcelona</h3>
+    <h3 style="color: #94a3b8;">Tugas Fisika Komputasi - Kelompok Barcelona</h3>
     
-    <p>Proyek ini mengimplementasikan Model Ising 2 Dimensi menggunakan Algoritma Metropolis (Monte Carlo) untuk mempelajari fenomena transisi fasa, magnetisasi spontan, dan perubahan perilaku sistem pada berbagai kondisi suhu.</p>
+    <p style="line-height: 1.6; text-align: center;">Mengimplementasikan Algoritma Metropolis untuk mempelajari fenomena transisi fasa pada sistem spin magnetik.</p>
 
-    <div class="btn-container">
-        <a href="Kasus_1_Suhu_Rendah.html">Kasus 1 - Fase Feromagnetik (T = 1.0)</a>
-        <a href="Kasus_2_Suhu_Sedang.html">Kasus 2 - Transisi Fasa (T = 2.27)</a>
-        <a href="Kasus_3_Suhu_Tinggi.html">Kasus 3 - Fase Paramagnetik (T = 4.0)</a>
+    <div class="btn-grid">
+        <a href="Kasus_1_Suhu_Rendah.html">Fase<br>Feromagnetik</a>
+        <a href="Kasus_2_Suhu_Sedang.html">Transisi<br>Fasa</a>
+        <a href="Kasus_3_Suhu_Tinggi.html">Fase<br>Paramagnetik</a>
     </div>
-
-    <hr>
 
     <h2>Anggota Kelompok</h2>
     <table>
@@ -41,20 +68,11 @@
         <tr><td>3</td><td>Ramadhan Agda Linuwih</td><td>01231014</td></tr>
     </table>
 
-    <h2>Teknologi & Aplikasi</h2>
-    <p>Pengembangan proyek ini didukung oleh:</p>
+    <h2>Teknologi & Penggunaan AI</h2>
     <ul>
-        <li><b>Bahasa & Library:</b> Python, NumPy (Komputasi Numerik), Matplotlib (Visualisasi).</li>
-        <li><b>Lingkungan & Tools:</b> Google Colab (Cloud IDE), Visual Studio Code, GitHub & GitHub Pages.</li>
+        <li><b>Tech Stack:</b> Python (NumPy/Matplotlib), Google Colab, GitHub Pages.</li>
+        <li><b>AI Assistance:</b> Kami mengintegrasikan <b>Gemini AI</b> untuk optimasi algoritma dan <b>Claude AI</b> untuk validasi analisis teoretis, memastikan akurasi saintifik pada laporan.</li>
     </ul>
-
-    <h2>Penggunaan AI</h2>
-    <p>Dalam pengerjaan tugas ini, kami memanfaatkan bantuan AI sebagai berikut:</p>
-    <ul>
-        <li><b>Gemini AI (3.1 PRO):</b> Menyusun struktur instruksi tugas dan optimasi sintaksis algoritma Metropolis.</li>
-        <li><b>Claude:</b> Validasi interpretasi fisis mekanika statistik dan penyelarasan gaya bahasa ilmiah pada laporan.</li>
-    </ul>
-
 </div>
 
 </body>
