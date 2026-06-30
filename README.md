@@ -5,6 +5,8 @@ Repository ini dibuat sebagai tugas mata kuliah **Fisika Komputasi**. Proyek ini
 ## Link Visit live
 https://felikssamosir1-glitch.github.io/simulasi-model-ising-2d/
 
+---
+
 ## Anggota Kelompok
 
 | No | Nama | NIM |
@@ -29,8 +31,7 @@ Pada suhu tinggi (**T > Tc**), energi termal mendominasi sehingga arah spin menj
 ---
 
 ## Struktur Repository
-
-```text
+text
 / (root repository)
 ├── README.md
 └── docs/
@@ -47,8 +48,7 @@ Pada suhu tinggi (**T > Tc**), energi termal mendominasi sehingga arah spin menj
 
 ---
 
-
-## Kriteria Evaluasi dan Bukti Pemenuhannya
+# Simulasi Model Ising 2D Menggunakan Algoritma Metropolis
 
 Penilaian terhadap hasil modifikasi dan pengerjaan tugas ini didasarkan pada aspek-aspek berikut. Keseluruhan kriteria telah terpenuhi di dalam simulasi ini dengan rincian sebagai berikut:
 
@@ -126,6 +126,3 @@ Website hasil simulasi dapat diakses melalui GitHub Pages yang berisi:
 * [Simulasi Kasus 2 (T = 2.27)](Kasus_2_Suhu_Sedang.html)
 * [Simulasi Kasus 3 (T = 4.0)](Kasus_3_Suhu_Tinggi.html)
 
-- Simulasi Kasus 2 (T = 2.27)
-
-- Simulasi Kasus 3 (T = 4.0)
