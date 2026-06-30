@@ -2,6 +2,9 @@
 
 Repository ini dibuat sebagai tugas mata kuliah **Fisika Komputasi**. Proyek ini mengimplementasikan **Model Ising 2 Dimensi (2D)** menggunakan **Algoritma Metropolis (Monte Carlo)** untuk mempelajari fenomena **transisi fasa**, **magnetisasi spontan**, dan perubahan perilaku sistem pada berbagai kondisi suhu.
 
+## Link Visit live
+https://felikssamosir1-glitch.github.io/simulasi-model-ising-2d/
+
 ## Anggota Kelompok
 
 | No | Nama | NIM |
@@ -41,8 +44,11 @@ Pada suhu tinggi (**T > Tc**), energi termal mendominasi sehingga arah spin menj
 │   └── Kasus_3_Suhu_Tinggi.ipynb
 │
 └── README.md
+
 ---
-**## Kriteria Evaluasi dan Bukti Pemenuhannya**
+
+
+## Kriteria Evaluasi dan Bukti Pemenuhannya
 
 Penilaian terhadap hasil modifikasi dan pengerjaan tugas ini didasarkan pada aspek-aspek berikut. Keseluruhan kriteria telah terpenuhi di dalam simulasi ini dengan rincian sebagai berikut:
 
